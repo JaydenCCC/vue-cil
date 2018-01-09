@@ -7,12 +7,12 @@ import store from '@/store'
 import plugin from '@/plugins'
 
 import cookie from 'cookies-js'
+import './router/intercepter'
 
-
-window.Cookies = cookie;
+window.Cookies = cookie
 Vue.config.productionTip = false
 
-Vue.use(plugin, {});
+Vue.use(plugin, {})
 
 /* eslint-disable no-new */
 new Vue({
